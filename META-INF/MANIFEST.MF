@@ -1,0 +1,12 @@
+Manifest-Version: 1.0 
+Bundle-ActivationPolicy: lazy 
+Bundle-Name: Baas Controller
+Bundle-Version: 3.3.0
+Bundle-Activator: com.digiwes.baas.Activator
+Bundle-ManifestVersion: 2
+Carbon-Component: UIBundle
+Import-Package: com.digiwes.baas.impl,
+ com.digiwes.baas.interf,
+ org.osgi.framework
+Bundle-SymbolicName: baas-controller
+Export-Package: com.digiwes.baas.controller
